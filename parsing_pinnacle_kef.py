@@ -8,7 +8,9 @@ import telebot  # импорт pyTelegramBotAPI
 from telebot import types  # также достанем типы
 import pandas as pd
 import re
-bot = telebot.TeleBot("5490566325:AAECPOsb6JlfLrGmBZteaFNqprSQQ9sPbRs")
+import config
+
+bot = telebot.TeleBot(token=config.BOT_TOKEN)
 
 
 @bot.message_handler(commands=['start'])
