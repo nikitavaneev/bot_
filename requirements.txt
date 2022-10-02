@@ -1,0 +1,6 @@
+selenium
+telebot
+pandas
+bs4
+shutil
+requests
